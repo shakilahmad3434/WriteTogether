@@ -1,0 +1,30 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": "ts-node-dev --respawn --transpile-only src/main.ts",
+		"build": "tsc"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"dotenv": "latest",
+		"chalk": "latest",
+		"cors": "latest",
+		"inquirer": "latest",
+		"morgan": "latest",
+		"express": "latest",
+		"mongoose": "latest"
+	},
+	"devDependencies": {
+		"@types/node": "latest",
+		"@types/cors": "latest",
+		"@types/express": "latest",
+		"@types/morgan": "latest",
+		"ts-node-dev": "latest",
+		"typescript": "latest"
+	}
+}
